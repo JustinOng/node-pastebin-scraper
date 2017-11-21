@@ -1,0 +1,24 @@
+{
+  "name": "node-pastebin-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustinOng/node-pastebin-scraper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JustinOng/node-pastebin-scraper/issues"
+  },
+  "homepage": "https://github.com/JustinOng/node-pastebin-scraper#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "request": "^2.83.0",
+    "throttled-request": "^0.1.1"
+  }
+}
