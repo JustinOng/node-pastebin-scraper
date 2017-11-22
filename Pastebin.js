@@ -73,8 +73,7 @@ class Pastebin extends EventEmitter {
           self.waiting_ids.splice(self.waiting_ids.indexOf(id), 1);
           self.loaded_ids.push(id);
 
-          console.log("Loaded", id);
-          //console.log(paste);
+          self.emit("new_paste", id, paste);
         });
 
         self.waiting_ids.push(id);
